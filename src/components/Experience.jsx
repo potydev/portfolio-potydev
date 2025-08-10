@@ -3,28 +3,28 @@ const Experience = () => {
     {
       id: 1,
       period: "2024 — PRESENT",
-      title: "Freelance Web Developer & Student",
+      title: "Full Stack Developer & Student",
       company: "Self-employed",
-      description: "Working as a freelance developer while pursuing studies. Collaborating with various clients to build modern web applications and websites. Specializing in frontend development with focus on user experience and performance optimization.",
-      technologies: ["Vue.js", "React.js", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS"],
+      description: "Working as a freelance full stack developer while pursuing studies. Building complete web applications from frontend to backend, including database design, API development, and deployment. Collaborating with various clients to deliver end-to-end solutions.",
+      technologies: ["Vue.js", "React.js", "Next.js", "TypeScript", "JavaScript", "Node.js", "Supabase", "PostgreSQL", "HTML/CSS", "Tailwind CSS"],
       link: "#"
     },
     {
       id: 2,
       period: "2024 — PRESENT",
-      title: "Collaborative Developer",
+      title: "Full Stack Developer",
       company: "Hexanest.id",
-      description: "Collaborating with friends and team members at Hexanest.id on various web development projects. Contributing to frontend development, implementing modern UI/UX designs, and ensuring responsive and accessible web applications.",
-      technologies: ["Vue.js", "React.js", "TypeScript", "Supabase", "AWS S3", "GSAP", "Tailwind CSS"],
+      description: "Collaborating with friends and team members at Hexanest.id on full stack web development projects. Developing both frontend interfaces and backend APIs, managing databases, implementing authentication systems, and ensuring scalable architecture.",
+      technologies: ["Vue.js", "React.js", "TypeScript", "Node.js", "Supabase", "AWS S3", "PostgreSQL", "GSAP", "Tailwind CSS", "REST APIs"],
       link: "https://hexanest.id"
     },
     {
       id: 3,
       period: "2023 — PRESENT",
-      title: "Student Developer",
+      title: "Full Stack Student Developer",
       company: "University Projects",
-      description: "Developing various academic and personal projects to enhance skills in modern web technologies. Building full-stack applications, learning new frameworks, and experimenting with different tech stacks to expand knowledge base.",
-      technologies: ["Vue.js", "React.js", "Next.js", "TypeScript", "JavaScript", "Supabase", "Node.js"],
+      description: "Developing full stack applications for academic and personal projects. Building complete systems with frontend, backend, database, and deployment. Learning modern full stack technologies and best practices for scalable development.",
+      technologies: ["Vue.js", "React.js", "Next.js", "TypeScript", "JavaScript", "Node.js", "Supabase", "PostgreSQL", "Express.js", "MongoDB"],
       link: "#"
     }
   ]
