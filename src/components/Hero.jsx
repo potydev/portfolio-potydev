@@ -84,12 +84,12 @@ const Hero = () => {
         
         {/* Name */}
         <h1 ref={nameRef} className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-4">
-          John Doe
+          Dapot Matthew
         </h1>
         
         {/* Title */}
         <h2 ref={titleRef} className="text-3xl sm:text-5xl lg:text-6xl font-bold text-muted-foreground mb-6">
-          Fullstack Web Developer
+          Full Stack Web Developer
         </h2>
         
         {/* Tagline */}
@@ -112,7 +112,7 @@ const Hero = () => {
         {/* Social Links */}
         <div ref={socialRef} className="flex gap-4 justify-center mb-12">
           <a 
-            href="https://github.com" 
+            href="https://github.com/potydev" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 transform hover:shadow-lg rounded-lg"
@@ -120,7 +120,7 @@ const Hero = () => {
             <Github size={24} />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/dapot-matthew-065707277/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 transform hover:shadow-lg rounded-lg"
@@ -128,7 +128,7 @@ const Hero = () => {
             <Linkedin size={24} />
           </a>
           <a 
-            href="mailto:john@example.com"
+            href="mailto:dapotmatthew02@gmail.com"
             className="p-3 text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 transform hover:shadow-lg rounded-lg"
           >
             <Mail size={24} />

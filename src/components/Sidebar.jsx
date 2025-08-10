@@ -21,22 +21,17 @@ const Sidebar = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/johndoe',
+      href: 'https://github.com/potydev',
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/johndoe',
-    },
-    {
-      name: 'Twitter',
-      icon: Twitter,
-      href: 'https://twitter.com/johndoe',
+      href: 'https://www.linkedin.com/in/dapot-matthew-065707277/',
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:john@example.com',
+      href: 'mailto:dapotmatthew02@gmail.com',
     }
   ]
 
@@ -92,7 +87,6 @@ const Sidebar = () => {
       )
 
       // Setup scroll triggers for active section detection
-      const sections = ['home', 'about', 'experience', 'projects']
       
       // Home section (top of page)
       ScrollTrigger.create({
@@ -132,10 +126,10 @@ const Sidebar = () => {
         {/* Name and Title */}
         <div className="mb-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-2">
-            John Doe
+            Dapot Matthew
           </h1>
           <h2 className="text-xl lg:text-2xl font-medium text-foreground mb-4">
-            Fullstack Web Developer
+            Full Stack Web Developer
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-sm">
             I build accessible, pixel-perfect digital experiences for the web.
