@@ -47,70 +47,27 @@ const About = () => {
         </p>
         
         <p className="text-muted-foreground leading-relaxed">
-          Currently, I'm a Senior Front-End Engineer at{' '}
+          Currently, I'm a student at{' '}
           <a 
-            href="https://klaviyo.com" 
+            href="https://politekniknegericilacap.ac.id" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-primary hover:underline transition-colors duration-200"
           >
-            Klaviyo
+            Politeknik Negeri Cilacap
           </a>
+          , majoring in Software Engineering Technology. I love coding and have completed several projects before.
           , specializing in accessibility. I contribute to the creation and maintenance 
           of UI components that power Klaviyo's frontend, ensuring our platform meets 
           web accessibility standards and best practices to deliver an inclusive user experience.
         </p>
 
         <p className="text-muted-foreground leading-relaxed">
-          In the past, I've had the opportunity to develop software across a variety of 
-          settings — from{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            advertising agencies
-          </a>
-          {' '}and{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            large corporations
-          </a>
-          {' '}to{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            start-ups
-          </a>
-          {' '}and{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            small digital product studios
-          </a>
-          . Additionally, I also released a{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            comprehensive video course
-          </a>
-          {' '}a few years ago, guiding learners through building a web app with the Spotify API.
+          Previously, I interned at a government institution, the Ministry of Trade, where I worked as a Frontend developer. One of the projects I worked on was a website for attendance tracking.
         </p>
 
         <p className="text-muted-foreground leading-relaxed">
-          In my spare time, I'm usually climbing, reading, hanging out with my wife and 
-          two cats, or running around Hyrule searching for{' '}
-          <a 
-            href="#" 
-            className="text-primary hover:underline transition-colors duration-200"
-          >
-            Korok seeds
-          </a>
-          .
+          In my spare time, I enjoy hiking, swimming, trail running, and various other sports activities.
         </p>
       </div>
     </section>
