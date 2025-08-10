@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       id: 3,
-      period: "2023 — PRESENT",
+      period: "2024 — PRESENT",
       title: "Full Stack Student Developer",
       company: "University Projects",
       description: "Developing full stack applications for academic and personal projects. Building complete systems with frontend, backend, database, and deployment. Learning modern full stack technologies and best practices for scalable development.",
