@@ -38,10 +38,6 @@ Website portfolio pribadi dengan gaya minimalis dan bersih yang terinspirasi dar
 - **Hierarchy**: Clear visual hierarchy dengan ukuran yang berbeda
 - **Readability**: Contrast ratio yang baik untuk aksesibilitas
 
-## 🚀 Deployment
-
-Website ini di-deploy di: **https://tdbquuwd.manus.space**
-
 ## 📝 Customization
 
 Untuk mengkustomisasi website ini:
