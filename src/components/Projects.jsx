@@ -72,7 +72,7 @@ const Projects = () => {
       technologies: ["Next.js 14", "TypeScript", "Supabase", "Tailwind CSS", "Shadcn/ui", "Zustand", "PostgreSQL"],
       github: "https://github.com/potydev/lumora-ecommerce",
       demo: "https://lumora-ecommerce.vercel.app",
-      image: "/api/placeholder/600/400"
+      image: "/images/Lumora e-commerce.png"
     },
     {
       id: 2,
@@ -131,9 +131,11 @@ const Projects = () => {
               {/* Project Image */}
               <div className={`lg:col-span-7 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="relative">
-                  <div className="bg-primary/10 rounded-lg aspect-video flex items-center justify-center border border-primary/20 hover:border-primary/40 transition-colors duration-300">
-                    <span className="text-primary text-sm font-medium">Project Preview</span>
-                  </div>
+                  <img 
+                    src={project.image} 
+                    alt={`${project.title} preview`}
+                    className="w-full h-auto rounded-lg border border-primary/20 hover:border-primary/40 transition-colors duration-300"
+                  />
                   <div className="absolute inset-0 bg-primary/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </div>
