@@ -67,11 +67,11 @@ const Projects = () => {
   const featuredProjects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with modern UI, secure payment integration, and comprehensive admin dashboard. Built with React, Node.js, and PostgreSQL for optimal performance and scalability.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      github: "https://github.com/johndoe/ecommerce-platform",
-      demo: "https://ecommerce-demo.com",
+      title: "Lumora E-commerce",
+      description: "A modern, responsive e-commerce platform for sustainable beauty products built with Next.js 14, TypeScript, and Supabase. Features complete product catalog with search and filtering, secure authentication, shopping cart with real-time updates, streamlined checkout process, user dashboard, and admin panel. Dedicated to promoting sustainable beauty practices with zero waste packaging and eco-friendly products.",
+      technologies: ["Next.js 14", "TypeScript", "Supabase", "Tailwind CSS", "Shadcn/ui", "Zustand", "PostgreSQL"],
+      github: "https://github.com/potydev/lumora-ecommerce",
+      demo: "https://lumora-ecommerce.vercel.app",
       image: "/api/placeholder/600/400"
     },
     {
@@ -265,7 +265,7 @@ const Projects = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://github.com/johndoe" 
+            href="https://github.com/potydev" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center text-primary hover:underline font-medium hover:scale-105 transition-transform duration-200"
